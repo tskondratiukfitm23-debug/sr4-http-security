@@ -1,0 +1,49 @@
+{
+  "rows": [
+    {
+      "scheme": "http",
+      "keepalive": false,
+      "n": 500,
+      "mean_ms": 0.557,
+      "p50_ms": 0.489,
+      "p95_ms": 0.825,
+      "rps": 1791.8,
+      "server_cpu_ms_per_req": 0.54
+    },
+    {
+      "scheme": "https",
+      "keepalive": false,
+      "n": 500,
+      "mean_ms": 2.256,
+      "p50_ms": 2.224,
+      "p95_ms": 2.842,
+      "rps": 443.0,
+      "server_cpu_ms_per_req": 1.76
+    },
+    {
+      "scheme": "http",
+      "keepalive": true,
+      "n": 500,
+      "mean_ms": 0.431,
+      "p50_ms": 0.411,
+      "p95_ms": 0.605,
+      "rps": 2315.5,
+      "server_cpu_ms_per_req": 0.38
+    },
+    {
+      "scheme": "https",
+      "keepalive": true,
+      "n": 500,
+      "mean_ms": 0.663,
+      "p50_ms": 0.639,
+      "p95_ms": 0.899,
+      "rps": 1507.7,
+      "server_cpu_ms_per_req": 0.64
+    }
+  ],
+  "handshake": {
+    "tls_handshake_ms_p50": 1.26,
+    "version": "TLSv1.3",
+    "cipher": "TLS_AES_256_GCM_SHA384"
+  }
+}

@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+server/certs/
+outputs/*.pcap
+outputs/*.log
+.pytest_cache/
